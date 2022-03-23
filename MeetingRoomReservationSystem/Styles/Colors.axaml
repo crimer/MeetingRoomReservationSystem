@@ -1,0 +1,14 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style>
+        <Style.Resources>
+            <!-- Colors -->
+            <Color x:Key="ColorPrimaryDarkBlue">#3175C9</Color>
+            <Color x:Key="ColorPrimaryLightBlue">#008BF7</Color>
+    
+            <!-- Brushes -->
+            <SolidColorBrush x:Key="BrushPrimaryDarkBlue" Color="{StaticResource ColorPrimaryDarkBlue}"/>
+            <SolidColorBrush x:Key="BrushPrimaryLightBlue" Color="{StaticResource ColorPrimaryLightBlue}"/>
+        </Style.Resources>
+    </Style>
+</Styles>

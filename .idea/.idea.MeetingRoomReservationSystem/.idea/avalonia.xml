@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="MeetingRoomReservationSystem/App.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Controls/Navigation/NavigationBarComponent.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Controls/NavigationBar.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Controls/ServiceCardControl.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Styles/Colors.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Styles/Common.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Styles/Sidebar.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Views/AllRoomsPage/AllRoomsPage.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Views/CreateReservationPage/CreateReservationPagePage.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Views/Home/HomePage.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Views/Main/MainPage.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Views/MainWindow.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+        <entry key="MeetingRoomReservationSystem/Views/Page.axaml" value="MeetingRoomReservationSystem/MeetingRoomReservationSystem.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

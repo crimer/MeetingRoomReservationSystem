@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pYmpAIusrl22QFo9rmng7U8+qgHigEdi79+8s1OO1+r09NGDMiu5K5M/siuBMJA5Q2WEfblbtd6G0pIXh1OMhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shevchenko.NE\\Desktop\\MeetingRoomReservationSystem\\MRRS.Api\\MRRS.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shevchenko.NE\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Shevchenko.NE\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Shevchenko.NE\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Shevchenko.NE\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Shevchenko.NE\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Shevchenko.NE\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

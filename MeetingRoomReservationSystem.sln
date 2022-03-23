@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingRoomReservationSystem", "MeetingRoomReservationSystem\MeetingRoomReservationSystem.csproj", "{658FFAF8-8B05-48D1-85D3-75E0837481D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRRS.Api", "MRRS.Api\MRRS.Api.csproj", "{CF319751-B79B-411D-B378-1EB6C2C1520B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658FFAF8-8B05-48D1-85D3-75E0837481D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658FFAF8-8B05-48D1-85D3-75E0837481D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658FFAF8-8B05-48D1-85D3-75E0837481D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658FFAF8-8B05-48D1-85D3-75E0837481D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF319751-B79B-411D-B378-1EB6C2C1520B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF319751-B79B-411D-B378-1EB6C2C1520B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF319751-B79B-411D-B378-1EB6C2C1520B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF319751-B79B-411D-B378-1EB6C2C1520B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

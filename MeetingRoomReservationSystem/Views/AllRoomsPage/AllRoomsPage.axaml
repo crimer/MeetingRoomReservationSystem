@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="MeetingRoomReservationSystem.Views.AllRoomsPage.AllRoomsPage"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <Grid RowDefinitions="Auto, *">
+        
+        <TextBlock Grid.Row="0" Text="All Rooms page" FontSize="20"/>
+        <!-- <Button Content="Модалка" Command="{Binding OpenModalCommand}"/> -->
+        <!-- Main Section -->
+        <ScrollViewer Grid.Row="1">
+            <StackPanel>
+                <Button Content="CSQ check netd   ds dwor sad a sa ds k" Command="{Binding ToCSQPageCommand}"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

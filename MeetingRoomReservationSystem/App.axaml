@@ -1,0 +1,33 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MeetingRoomReservationSystem.App">
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+        <Style Selector="TextBlock.h1">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontWeight" Value="Medium" />
+        </Style>
+        <Style Selector="TextBlock.h2">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style Selector="TextBlock.h3">
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+        <Style Selector="Label.h1">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontWeight" Value="Medium" />
+        </Style>
+        <Style Selector="Label.h2">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style Selector="Label.h3">
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+        <!-- <StyleInclude Source="avares://Citrus.Avalonia/Citrus.xaml"/> -->
+        <!-- <StyleInclude Source="avares://Citrus.Avalonia/Candy.xaml"/> -->
+        <StyleInclude Source="/Styles/Common.axaml"/>
+        <StyleInclude Source="/Styles/Colors.axaml"/>
+        <StyleInclude Source="/Styles/Sidebar.axaml"/>
+    </Application.Styles>
+</Application>
