@@ -14,10 +14,6 @@ class Program
     [STAThread]
     public static void Main(string[] args)
     {
-        var services = new ServiceCollection();
-        services.ConfigureServices();
-        services.BuildServiceProvider();
-
         AppDomain.CurrentDomain.UnhandledException += CurrentDomainOnUnhandledException;
         TaskScheduler.UnobservedTaskException += TaskSchedulerOnUnobservedTaskException;
 

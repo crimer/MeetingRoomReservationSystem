@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using MeetingRoomReservationSystem.Commands;
 using MeetingRoomReservationSystem.Helpers;
@@ -27,12 +28,7 @@ public class BaseVM : Bindable
     private void NavigateTo() => _navigationService.NavigateTo(new CreateReservationPageVM());
 
     
-    protected virtual Task OnInitializedAsync()
-    {
-        return Task.CompletedTask;
-    }
-    
-    protected virtual Task OnDestroyAsync()
+    public virtual Task OnInitializedAsync(object sender, EventArgs e)
     {
         return Task.CompletedTask;
     }

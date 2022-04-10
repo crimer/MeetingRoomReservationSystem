@@ -17,14 +17,16 @@
         <ContentControl x:Name="Control" Grid.Row="1" Content="{Binding Navigation.CurrentViewModel}">
             <ContentControl.DataTemplates>
                 
+                <!-- AllRoomsPage -->
                 <DataTemplate DataType="{x:Type vm:AllRoomsPageVM}">
                     <allRoomsPage:AllRoomsPage/>
                 </DataTemplate>
-                
+            
+                <!-- CreateReservationPage -->
                 <DataTemplate DataType="{x:Type vm:CreateReservationPageVM}">
                     <createReservationPage:CreateReservationPage/>
                 </DataTemplate>
-                
+            
             </ContentControl.DataTemplates>
         </ContentControl>
     </Grid>

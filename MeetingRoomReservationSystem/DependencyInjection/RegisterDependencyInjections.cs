@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using MeetingRoomReservationSystem.Controls.Navigation;
 using MeetingRoomReservationSystem.Services;
 using MeetingRoomReservationSystem.Views.AllRoomsPage;
 using MeetingRoomReservationSystem.Views.Base;
@@ -16,9 +17,11 @@ public static class RegisterDependencyInjections
         => serviceCollection
             .AddSingleton<MainPage>()
             .AddSingleton<MainVM>()
-            .AddSingleton<NavigationService>();
-    // .RegisterViewsAndVm<AllRoomsPage, AllRoomsPageVM>()
-    // .RegisterViewsAndVm<CreateReservationPage, CreateReservationPageVM>();
+            .AddSingleton<NavigationBarVM>()
+            .AddSingleton<NavigationService>()
+    .RegisterViewsAndVm<NavigationBarComponent, NavigationBarVM>()
+    .RegisterViewsAndVm<AllRoomsPage, AllRoomsPageVM>()
+    .RegisterViewsAndVm<CreateReservationPage, CreateReservationPageVM>();
 }
 
 public static class RegisterViews
@@ -27,22 +30,8 @@ public static class RegisterViews
         where TView : BaseUserControl<TViewModel>
         where TViewModel : BaseVM
     {
-        var vmType = typeof(TViewModel);
-        var interfaces = vmType.GetInterfaces().Select(i => i.Name);
-        
-        if(interfaces == null || !interfaces.Any())
-            throw new ApplicationException();
-            
-        var isSingleton = interfaces.Contains("ISingleton");
-        var isTransient = interfaces.Contains("ITransient");
-        var isScoped = interfaces.Contains("IScoped");
-        if(isSingleton)
-            serviceCollection.AddSingleton<TViewModel>();
-        if(isTransient)
-            serviceCollection.AddTransient<TViewModel>();
-        if(isScoped)
-            serviceCollection.AddScoped<TViewModel>();
-        
+        serviceCollection.AddSingleton<TViewModel>();
+
         serviceCollection.AddTransient<TView>(sp =>
         {
             var view = ActivatorUtilities.CreateInstance<TView>(sp);
@@ -52,8 +41,8 @@ public static class RegisterViews
             var vm = sp.GetRequiredService<TViewModel>();
 
             viewControl.DataContext = vm;
+            viewControl.Initialized += (sender, args) => vm.OnInitializedAsync(sender, args);
             return view;
-            // viewControl.Initialized += (sender, args) => vm.
         });
         
         return serviceCollection;

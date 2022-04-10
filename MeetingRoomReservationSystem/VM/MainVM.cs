@@ -1,5 +1,4 @@
-﻿
-namespace MeetingRoomReservationSystem.VM;
+﻿namespace MeetingRoomReservationSystem.VM;
 
 public class MainVM : BaseVM
 {

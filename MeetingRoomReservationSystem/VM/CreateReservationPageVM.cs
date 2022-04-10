@@ -4,6 +4,6 @@ using MeetingRoomReservationSystem.Services;
 
 namespace MeetingRoomReservationSystem.VM;
 
-public class CreateReservationPageVM : BaseVM, ISingleton
+public class CreateReservationPageVM : BaseVM
 {
 }

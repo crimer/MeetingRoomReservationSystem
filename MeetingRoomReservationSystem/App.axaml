@@ -1,5 +1,6 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
              x:Class="MeetingRoomReservationSystem.App">
 
     <Application.Styles>
@@ -24,10 +25,15 @@
         <Style Selector="Label.h3">
             <Setter Property="FontSize" Value="12" />
         </Style>
-        <!-- <StyleInclude Source="avares://Citrus.Avalonia/Citrus.xaml"/> -->
-        <!-- <StyleInclude Source="avares://Citrus.Avalonia/Candy.xaml"/> -->
+        
         <StyleInclude Source="/Styles/Common.axaml"/>
         <StyleInclude Source="/Styles/Colors.axaml"/>
-        <StyleInclude Source="/Styles/Sidebar.axaml"/>
+    </Application.Styles>
+    
+    <Application.Resources>
+        <themes:BundledTheme BaseTheme="Light" PrimaryColor="LightBlue" SecondaryColor="Red"/>
+    </Application.Resources>
+    <Application.Styles>
+        <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" />
     </Application.Styles>
 </Application>
